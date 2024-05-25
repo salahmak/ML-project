@@ -45,7 +45,13 @@ The dataset contains no missing values, ensuring that the analysis and model tra
 
 # Methodology
 
-In this project, we compared several machine learning algorithms, including Decision Tree, AdaBoost, Random Forest, XGBoost, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Artificial Neural Networks (ANN), Long Short-Term Memory (LSTM), and Naive Bayes (with target binning). The methodology involved the following steps:
+In this project, we compared several machine learning algorithms, including:
+-  Decision Tree: {'max_depth': 19}
+-  AdaBoost: {'learning_rate': 1, 'loss': 'exponential', 'n_estimators': 100}
+-  Random Forest: {n_estimators=100, criterion='squared_error', max_depth=None}
+-  XGBoost: Base Model
+- Support Vector Machine (SVM): {kernel='rbf', degree=3, C=1} 
+- K-Nearest Neighbors (KNN), Artificial Neural Networks (ANN), Long Short-Term Memory (LSTM), and Naive Bayes (with target binning). The methodology involved the following steps:
 
 1. **Data Cleaning and Feature Engineering:** The raw dataset was preprocessed to handle missing values, outliers, and feature scaling. New features such as `Year`, `IsWeekend`, `IsNight`, `HourCos`, `HourSin`, `MonthCos`, `MonthSin`, `DayCos`, and `DaySin` were created to capture temporal patterns.
 
@@ -205,7 +211,7 @@ SVM provided reasonable predictions, but the computational complexity and need f
 
 ### K-Nearest Neighbors (KNN)
 
-KNN, while simplistic, delivered outstanding results due to its ability to capture local data structures. Its performance indicates that local proximity-based methods can be very effective for this type of regression task.
+KNN, while simplistic, delivered outstanding results due to its ability to capture local data structures. Its performance indicates that local proximity-based methods can be very effective for this type of regression task. The choice of k (k was 1 or 2) was due to the nature of the dataset (time series).
 
 ### Artificial Neural Networks (ANN) and Long Short-Term Memory (LSTM)
 

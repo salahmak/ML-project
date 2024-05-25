@@ -1,3 +1,9 @@
+# Machine Learning Project
+### Team members:
+- Makdour Salah Eddine.
+- Chellal Abdelhak.
+- Baaziz Mohammed Chaker.
+
 # Abstract
 
 This project focuses on analyzing and predicting the power consumption of Tetouan City using various machine learning algorithms. The dataset consists of energy usage patterns from three distinct distribution networks in the city, recorded at ten-minute intervals. By applying regression models, the project aims to predict power consumption based on multiple features, including temperature, humidity, wind speed, and solar radiation. The results demonstrate the effectiveness of different models and provide insights into the energy consumption patterns of Tetouan City.
@@ -251,3 +257,25 @@ This project successfully demonstrated the application of various machine learni
 1. Dataset: UCI Machine Learning Repository - Tetouan City Power Consumption Data
 2. Scikit-learn Documentation
 3. TensorFlow and Keras Documentation
+4. ChatGPT (for formatting the report)
+
+
+# Who Did What:
+## Salah Eddine Makdour:
+- Naive Bayes
+- LSTM
+
+## Mohammed Chaker Baaziz:
+- Decision Tree (and its variations)
+- SVM
+
+## Abdelhak Chellal:
+- Artificial Neural Networks
+- K-Nearest Neighbors
+
+## Common tasks:
+- Data preprocessing
+- Data analysis
+- Feature engineering
+- Report Writing
+
